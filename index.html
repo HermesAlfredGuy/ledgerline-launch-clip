@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ledgerline — launch clip, 20 s</title>
+<meta name="description" content="A 20-second launch film for Ledgerline, a month-end reporting tool: 48 tabs become one report, one click exports it in 8 seconds. Built frame by frame in code.">
+<meta property="og:title" content="Ledgerline — reports that ship themselves">
+<meta property="og:description" content="20-second launch film. 48 tabs → one report → one click → 8 s. Sound on.">
+<meta property="og:image" content="media/cover-1200x630.png">
+<meta property="og:type" content="video.other">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="bar">
+  <div class="wrap bar-in">
+    <a class="brand" href="#top">
+      <span class="mark" aria-hidden="true"><i></i></span>
+      <span class="brand-name">LEDGERLINE</span>
+    </a>
+    <p class="meta">LAUNCH FILM · 20.000 S · 1080 × 1080 · 30 FPS</p>
+    <nav class="links">
+      <a href="#beats">The three beats</a>
+      <a href="#made">How it's made</a>
+      <a class="cta-link" href="media/launch-clip-v2.mp4" download>Download MP4 <span aria-hidden="true">↓</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <p class="kicker">MONTH-END REPORTING · ONE CLICK</p>
+      <h1>Reports<br>that ship<br>themselves<span class="dot">.</span></h1>
+      <p class="lede">Closing the books is a few seconds of work and four hours of assembling the report.
+        This film is about deleting the second half — and it is the studio's proof clip: 600 frames,
+        drawn in code, locked to the music.</p>
+      <div class="actions">
+        <button id="play" class="btn" aria-label="Play the film with sound">
+          <span class="btn-ico" aria-hidden="true">▶</span> Play the film
+        </button>
+        <a class="ghost" href="media/launch-clip-v2.mp4" download>MP4 · 22 MB · 1080 × 1080</a>
+      </div>
+      <p class="hint" id="hint">Sound on. 20 seconds, no narration — the picture carries it.</p>
+    </div>
+
+    <figure class="player" id="player">
+      <div class="frame">
+        <span class="cm tl"></span><span class="cm tr"></span><span class="cm bl"></span><span class="cm br"></span>
+        <video id="film" src="media/launch-clip-v2.mp4" poster="media/poster.jpg"
+               playsinline muted preload="metadata" width="1080" height="1080"></video>
+        <div class="bar-in-frame">
+          <span class="tap" aria-hidden="true"><i>▶</i> CLICK TO PLAY</span>
+          <span class="tc"><span id="tc">00:00</span> / 00:20</span>
+          <button class="snd" id="snd" aria-pressed="true">SOUND ON</button>
+        </div>
+      </div>
+      <figcaption>Ledgerline — “Reports that ship themselves.” Spec launch film, 2026.</figcaption>
+    </figure>
+  </section>
+
+  <section class="beats" id="beats">
+    <div class="wrap">
+      <h2 class="sec">The three beats</h2>
+      <ol class="beat-list">
+        <li class="beat" data-t="0" data-end="4">
+          <button class="beat-in">
+            <img src="media/beat_2.2.jpg" alt="A pile of 48 browser tabs spiralling into one report" width="540" height="540" loading="lazy">
+            <span class="beat-id">01</span>
+            <span class="beat-name">The mess</span>
+            <span class="beat-time">0.0 – 4.0 s</span>
+            <span class="beat-note">48 tabs pile up, then spiral into one report. Counter rolls 48 → 1.</span>
+          </button>
+        </li>
+        <li class="beat" data-t="4" data-end="16">
+          <button class="beat-in">
+            <img src="media/beat_7.0.jpg" alt="A red report sheet stamped EXPORTED" width="540" height="540" loading="lazy">
+            <span class="beat-id">02</span>
+            <span class="beat-name">The click</span>
+            <span class="beat-time">4.0 – 16.0 s</span>
+            <span class="beat-note">Cursor, press, red fill, EXPORTED. 4&#8239;h&#8239;12&#8239;m is struck out and becomes 8&#8239;s.</span>
+          </button>
+        </li>
+        <li class="beat" data-t="16" data-end="20">
+          <button class="beat-in">
+            <img src="media/beat_19.9.jpg" alt="Closing card: Reports that ship themselves" width="540" height="540" loading="lazy">
+            <span class="beat-id">03</span>
+            <span class="beat-name">The result</span>
+            <span class="beat-time">16.0 – 20.0 s</span>
+            <span class="beat-note">The promise, the mark, the address. Button ending on the last bar.</span>
+          </button>
+        </li>
+      </ol>
+      <p class="beats-hint">Play the film and the beat you're watching stays lit.</p>
+    </div>
+  </section>
+
+  <section class="made wrap" id="made">
+    <h2 class="sec">How it's made</h2>
+    <div class="cols">
+      <div class="col">
+        <p class="num">600</p>
+        <p class="num-lab">frames, drawn</p>
+        <p class="body">Every frame is a pure function of its number: a canvas redraw, no video editing.
+          That's why the type, the stamp and the fold stay pixel-consistent — and why the clip re-renders
+          in seventeen seconds.</p>
+      </div>
+      <div class="col">
+        <p class="num">60</p>
+        <p class="num-lab">named motion techniques</p>
+        <p class="body">Each beat is named from a 923-entry motion vocabulary before it's built, then written
+          into the timeline with its definition, so the film is auditable frame by frame instead of vibes.</p>
+      </div>
+      <div class="col">
+        <p class="num">−14.1</p>
+        <p class="num-lab">LUFS, mixed</p>
+        <p class="body">A CC0 house track (“Retro Synths”, HoliznaCC0) cut at its drop and dropped onto the
+          bar grid, with 60 procedural cues — press, stamp, paper peel, ticks — panned to follow the movement.</p>
+      </div>
+    </div>
+    <dl class="spec">
+      <div><dt>Picture</dt><dd>1080×1080, H.264 High, 30 fps, 600 frames</dd></div>
+      <div><dt>Sound</dt><dd>AAC 192 kbps, −14.1 LUFS integrated, true peak under −1 dBTP</dd></div>
+      <div><dt>Checks</dt><dd>Motion gate median 4.62 (floor 2.5) · 0 dead seconds · 0 console errors</dd></div>
+      <div><dt>Music</dt><dd>“Retro Synths” — HoliznaCC0 · CC0 1.0 · Free Music Archive</dd></div>
+      <div><dt>Type</dt><dd>Archivo Black · Archivo · IBM Plex Mono · Instrument Serif (all self-hosted)</dd></div>
+    </dl>
+  </section>
+
+  <section class="deliver wrap">
+    <h2 class="sec">Take it</h2>
+    <ul class="files">
+      <li><a href="media/launch-clip-v2.mp4" download><strong>launch-clip-v2.mp4</strong><span>Master · 20 s · 1080 × 1080 · 22 MB</span></a></li>
+      <li><a href="media/cover-1080.png" download><strong>cover-1080.png</strong><span>Square still, frame 595</span></a></li>
+      <li><a href="media/cover-1200x630.png" download><strong>cover-1200x630.png</strong><span>Link preview / share card</span></a></li>
+    </ul>
+    <p class="foot-note">Ledgerline is a fictional product made for this film. The numbers on screen are the
+      product's own claims, not measured customer data. Music is CC0; typefaces are open-licensed.</p>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span class="brand-name small">LEDGERLINE</span>
+    <span class="meta">A LAUNCH FILM BUILT IN CODE · 2026</span>
+    <a class="meta" href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
