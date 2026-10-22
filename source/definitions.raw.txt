@@ -1,0 +1,72 @@
+- Linear wipe A hard straight edge moves across the frame in one direction, revealing the incoming scene behind it. Also called edge wipe, straight wipe, line wipe.
+- Hard cut The image changes instantly from one shot to the next with no transitional frames. Also called straight cut, cut.
+- Gate weave The frame jitters slightly up, down and sideways from frame to frame, as film moves imperfectly through a projector gate. Also called Projector weave, Film gate jitter, Film wobble.
+- Stamp impression Text appears by pressing down with an oversized scale and a brief flash of contact, as if stamped onto the surface. Also called letterpress stamp, impact press text.
+- Jitter and boil text Letters jitter slightly while their contours vary between successive drawings, producing a restless hand-drawn boil. Also called wobble text, boiling type, shimmer jitter.
+- Text mask reveal The incoming scene is visible only through the letters of a large word that scales up to fill the frame. Also called letter mask reveal, type mask transition.
+- Tracking in A line starts with very wide letter spacing and tightens to its final spacing while fading in, giving a settling motion. Also called letter-spacing contract, tracking squeeze in.
+- Staggered cascade reveal A group of items enters the viewport one after another with a short delay between each. Also called sequenced reveal, stagger on scroll.
+- Push-in The camera moves slowly forward toward the subject, tightening the framing so the subject gradually fills more of the frame. Also called digital dolly, slow zoom in.
+- Particle swarm assemble Hundreds of small dots drift in from random positions and settle into the outline of a shape or logo. Also called particles form shape, dot matrix form, particle logo build, Particle assemble logo, particle logo reveal, scattered dots converge.
+- Dolly in and out The camera physically moves toward or away from the subject, so the subject grows or shrinks while nearer and farther objects shift at different rates. Also called push and pull dolly, track in, track out.
+- Anticipation A small movement in the opposite direction precedes a major action, preparing the viewer for what follows. Also called wind-up, pre-action, windup.
+- Halftone dot scaling A regular grid of dots changes radius across the field to form a moving image or gradient, similar to a printed halftone screen. Also called dot screen morph, halftone pulse, dot size wave.
+- Whip pan A fast camera pan smears the frame horizontally, and the cut happens at peak blur with the next scene arriving on the other side of the smear. Also called whip transition, swish pan, swipe with motion blur, directional blur swipe, flick pan, Whip pan blur.
+- effects Riser A sound that climbs steadily in pitch, loudness or intensity over a few seconds to build anticipation, ending right as the big moment arrives. Also called uplifter, build-up, tension riser, rising sound.
+- effects Impact hit A short, heavy sound with a sharp attack, often a deep boom, that lands exactly when something slams into place or a key moment hits. Also called hit, slam sound, trailer hit.
+- effects Whoosh A short rush of air that rises and falls as something moves fast across the frame or the scene changes, loudest at the moment of fastest motion. Also called swish, pass-by, whoosh sound.
+- effects UI sounds Short, quiet clicks, taps and ticks that play exactly as a cursor presses a button, a toggle flips or a card snaps into place, so on-screen actions feel physical. Also called UI click sounds, interface sounds, UI SFX, tap sounds, click sounds.
+- effects Foley Everyday action sounds, such as footsteps, rustling cloth or a cup being set down, performed and recorded afterwards to match the timing of the movement on screen, so it sounds real. Also called foley sounds, foley art.
+- Silence drop The music and sound cut to silence for a moment, usually just before a big reveal, so the next sound lands harder. Also called drop to silence, sudden silence, dramatic pause.
+- Swell The music grows gradually louder and fuller toward an emotional peak. Also called music swell, crescendo.
+- Swiss grid slide Columns and rules of a modular grid slide into place, aligning text and shapes to a visible grid structure. Also called modular grid reveal, International Typographic grid motion, grid column reveal.
+- Odometer roll Each digit sits in a vertical column that scrolls smoothly to its new value, so a number changes like a mechanical odometer. Also called number roll, slot roll, digit column spin, rolling digit counter, mechanical counter, Number roll counter, odometer digits, slot counter.
+- Infinite marquee A row of items scrolls continuously in one direction and loops seamlessly. Also called logo ticker, endless scroll band, Infinite Marquee Scroll, ticker loop, looping scroll, endless ticker, Marquee ticker, news ticker, scrolling banner text.
+- Cursor follower dot and ring A small dot tracks the pointer exactly while a larger ring follows behind with eased lag. Also called lagging cursor, trailing ring.
+- Sheen sweep A diagonal band of light crosses the button surface once on hover or at intervals. Also called shine sweep, glint, Sparkle twinkle, four-point star flash, twinkle star, glints, star sparkles, Light sweep, specular sweep, Specular glint, sparkle highlight, Shine pass.
+- Press depress The button sinks and its shadow flattens while pressed, springing back up on release. Also called active press, tactile press.
+- Touch ripple A circular highlight expands outward from the exact point of click or tap and fades as it covers the surface. Also called ink ripple, click ripple, surface ripple.
+- Squash on tap A small icon or button compresses on one axis and stretches on the other when tapped, then bounces back with overshoot. Also called jelly press, elastic tap.
+- Fill sweep button A solid color slides across the button from one edge on hover, changing the label color as it passes. Also called wipe fill, background wipe.
+- Halftone Tone is rendered as a grid of dots whose size varies with brightness, as in printed newspaper images. Also called Newsprint dots, Halftone dots, Print screen.
+- Number count-down A number decreases from a start value to zero, often shown as a timer with its digits updating each second. Also called countdown timer, reverse counter, Countdown clock, count-down display.
+- Progress ring A circular stroke fills clockwise from empty to show a known percentage of completion. Also called circular progress, radial progress, Radial progress fill, ring progress, arc sweep meter, Radial progress ring.
+- effects Success chime A short, bright tone or pair of rising notes that plays when something succeeds, such as a payment going through or a task finishing. Also called confirmation sound, completion sound, ding.
+- Page turn The corner of the outgoing page lifts and curls back to reveal the next page underneath. Also called page curl, page peel, page flip, 3D book turn.
+- Accordion fold The scene folds into alternating vertical or horizontal pleats that collapse, revealing the incoming scene. Also called zigzag fold, pleat fold, fan fold, zig-zag fold, fold panel.
+- Drop shadow breathing A shape's drop shadow grows softer and farther as it rises and tightens as it lands, suggesting height. Also called shadow pulse, elevation change, lift and shadow.
+- Stacked card reveal Cards stacked like a deck swipe away one at a time to reveal the next card underneath. Also called card swipe, card stack swipe, deck swipe, swipeable stack.
+- Cursor state change A custom cursor grows, changes shape, or shows a label when it moves over interactive elements. Also called contextual cursor, cursor morph on target.
+- Punch-in A quick scale jump toward the subject, often used to hide a cut or emphasize a beat. Also called snap zoom, punch zoom, crash zoom, whip zoom, zoom punch, smash zoom.
+- Ken Burns effect A still photograph is slowly panned and scaled so the viewer drifts across its details. Also called pan and zoom, photo pan-zoom, Ken Burns pan and zoom, slow zoom, slow pan.
+- Parallax layers Several flat layers move at different speeds, so nearer layers shift more than distant ones when the view changes. Also called layered parallax, scroll parallax, Layered flat depth, flat parallax layers, 2.5D depth, paper layer parallax.
+- Jump cut The same subject appears in two consecutive shots with a visible break in position, so the edit reads as a time skip. Also called jump edit.
+- Path follow motion An object travels along a curved path and orients itself to the path's direction at each point. Also called motion path travel, object along path, path-following motion.
+- Object pass-through A moving object covers the frame for a moment and the scene behind it changes while the object occludes the lens. Also called object wipe, pass-by transition, Camera-mask transition, camera pass, dark mask pass.
+- Motion blur Moving subjects or camera motion produce blur along the paths traced during an exposure, with blur direction and length varying across the image. Also called Directional blur, Linear blur, Streak blur.
+- Slide-over cover The incoming scene slides over a stationary outgoing scene and covers it. Also called cover, slide over, new slide over.
+- Progress steps connector fill Connector lines between numbered steps fill with color as the user advances through a multi-step flow. Also called stepper fill, wizard progress.
+- Badge count bump A numeric badge scales up with a bounce each time its count increases. Also called count badge pop, notification bump.
+- Zoom out reveal The outgoing scene shrinks into a small frame, revealing the incoming scene as the full backdrop. Also called pull-out, pull back reveal, Pull-out reveal, wide reveal.
+- effects Sub drop A very deep bass tone that falls in pitch and fades away, felt as much as heard, usually under an impact or right after a riser. Also called sub-bass drop.
+- Per-word fade-in A sentence appears one word at a time, each word fading from transparent to opaque with a short delay after the previous one. Also called word stagger reveal.
+- Underline wipe A link's underline grows from one side to full width on hover and retracts toward the opposite side on exit. Also called link underline slide, text underline fill.
+- Parallax marquee rows Several rows of text scroll in alternating directions at different speeds, creating a layered rhythm. Also called opposing marquee, multi-row scroll type.
+- Cut on action The edit happens mid-movement so the motion carries across the cut and hides the change of frame. Also called action cut, continuity cut.
+- 
+- Stacked line build Lines of text are added one above another in sequence until a stack of words forms a block. Also called layered line stack, type stack build.
+- Logo mask wipe reveal A logo is uncovered by a shape or band that moves across it, revealing the mark behind a mask edge. Also called matte wipe logo, wipe logo, mask sweep reveal, Lower third split-wipe reveal, mask-revealed title, text behind mask reveal.
+- Letter roll Each letter of a label rolls upward and is replaced by a copy from below on hover, staggered across the word. Also called text roll, letter shuffle.
+- Typewriter reveal Characters appear one at a time from left to right at a steady pace, as though being typed in real time. Also called typing effect, type-on text, Typewriter text, character typing, typed line.
+- effects Typing sounds Soft keyboard clicks timed to each character as text types onto the screen. Also called keyboard clicks, keystroke sounds, typing SFX.
+- Blinking cursor A thin vertical or block cursor toggles visibility at a regular interval next to the current insertion point. Also called caret blink, text cursor blink.
+- Film grain Fine random speckles vary with the image's brightness, like the silver halide crystals of photographic film. Also called Film noise, Emulsion grain, Photochemical grain.
+- Sonic logo A short, distinctive sound or melody that belongs to a brand and plays with its logo, so people recognise the brand by ear. Also called audio logo, sound logo.
+- Button ending A short, decisive final note or chord that ends the music cleanly on the last frame, instead of fading out. Also called musical button, hard ending.
+- Cut to the beat Cuts, transitions and key movements are timed to land exactly on the beats of the music. Also called beat sync, edit to the beat, cutting on the beat, synced to the beat, on the beat.
+- Music bed Background music that runs underneath the whole piece at a lower level, setting the mood without competing with the voice or sound effects. Also called background music, underscore.
+- & editing Ducking The music is automatically turned down whenever a voice or important sound plays, then comes back up. Also called audio ducking, sidechain ducking, auto-ducking.
+- & editing Stereo panning A sound moves between the left and right speakers to follow something as it travels across the screen. Also called left-right movement.
+- Stroke draw-on The outline of each letter is drawn progressively with a moving stroke, tracing the contours before the fill appears. Also called outline trace, stroke-dashoffset text, line-draw lettering, Trim path reveal, line draw-on, stroke reveal.
+- Number count-up A number animates from a start value to a target value over time, displaying each intermediate integer. Also called count-up, numeric tween, Number count-up on scroll, stat counter, animated statistic, Number counter roll-up, count-up number, number tween.
+- Cross dissolve The outgoing and incoming images blend through a linear opacity change, so both are visible at the midpoint. Also called crossfade, cross fade, mix.
