@@ -90,12 +90,13 @@ figcaption{font-family:var(--mono); font-size:12px; line-height:1.5; letter-spac
   background:var(--sheet); border:1px solid var(--hair); padding:0 0 16px; transition:border-color .25s, transform .25s, box-shadow .25s; position:relative; overflow:hidden}
 .beat-in:hover{transform:translateY(-3px); box-shadow:10px 12px 0 rgba(23,18,13,.08)}
 .beat img{grid-area:img; width:100%; height:auto; display:block; border-bottom:1px solid var(--hair); filter:saturate(.95); outline:1px solid rgba(23,18,13,.12); outline-offset:-1px; aspect-ratio:1/1; object-fit:cover}
-.beat-id{grid-area:id; font-family:var(--mono); font-size:12px; font-weight:600; color:var(--red-deep); margin:14px 0 0 16px}
+.beat-id{grid-area:id; font-family:var(--mono); font-size:12px; font-weight:600; color:var(--red-deep);
+  margin:14px 0 0 11px; padding:1px 5px; justify-self:start}
 .beat-name{grid-area:name; font-family:var(--black); font-size:clamp(20px,2vw,26px); margin:4px 16px 0; letter-spacing:-.01em}
 .beat-time{grid-area:time; font-family:var(--mono); font-size:11px; letter-spacing:.12em; color:var(--ink-45); margin:8px 16px 0}
 .beat-note{grid-area:note; font-size:14.5px; line-height:1.5; color:rgba(23,18,13,.78); margin:8px 16px 0; text-wrap:pretty}
 .beat.active .beat-in{border-color:var(--ink); box-shadow:0 0 0 2px var(--ink), 8px 10px 0 rgba(238,58,28,.22)}
-.beat.active .beat-id{color:var(--ink); background:var(--red); color:var(--sheet); padding:1px 5px; justify-self:start}
+.beat.active .beat-id{background:var(--red); color:var(--sheet)}
 .beat.active .beat-in::after{content:""; position:absolute; left:0; top:0; height:3px; width:100%; background:var(--red); transform-origin:left; animation:fill 1s linear}
 @keyframes fill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 .beats-hint{font-family:var(--mono); font-size:11px; letter-spacing:.08em; color:var(--ink-45); margin:22px 0 0}
