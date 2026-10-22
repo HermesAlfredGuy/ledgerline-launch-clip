@@ -32,7 +32,7 @@ button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
 .brand-name.small{font-size:12px; letter-spacing:.22em; color:var(--ink-60)}
 .meta{font-family:var(--mono); font-size:11px; letter-spacing:.16em; color:var(--ink-60); margin:0; text-transform:uppercase; white-space:nowrap}
 .links{margin-left:auto; display:flex; align-items:center; gap:26px; font-family:var(--mono); font-size:12px; letter-spacing:.06em}
-.links a{position:relative; padding:6px 0; color:var(--ink-60); transition:color .18s}
+.links a{position:relative; padding:6px 0; color:var(--ink-60); transition:color .18s; white-space:nowrap}
 .links a:hover{color:var(--ink)}
 .links a::after{content:""; position:absolute; left:0; bottom:0; height:1px; width:0; background:var(--red); transition:width .28s cubic-bezier(.2,.7,.3,1)}
 .links a:hover::after{width:100%}
